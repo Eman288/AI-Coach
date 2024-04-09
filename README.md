@@ -1,6 +1,6 @@
 # AI Coach 
 
-Welcome to the AI Coach App! This application is designed to provide personalized coaching and guidance using AI technologies. Whether you're looking to improve your fitness, mental well-being, productivity, or any other aspect of your life, the AI Coach is here to assist you.
+Welcome to AI Coach! We provide customized coaching and guidance using advanced AI technologies to help you achieve your goals. The app helps you detect if the exercise is right or not. currently, we support push-ups, crunches, and squats.
 
 ## Requirements
 
