@@ -1,0 +1,13 @@
+# Libraries used in the project:-
+
+opencv-python
+
+mediapipe
+
+scikit-learn
+
+tensorflow
+
+os
+
+numpy
