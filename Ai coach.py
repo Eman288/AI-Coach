@@ -17,7 +17,7 @@ model_save_path = 'The saved model/model.keras'
 
 model = tf.keras.models.load_model(model_save_path)
 
-#model test by video
+#model test by webcam
 
 #video_path = '29_Demo (2).mp4'
 cap = cv2.VideoCapture(0)
