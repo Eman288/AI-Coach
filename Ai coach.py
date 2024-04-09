@@ -9,7 +9,6 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 from sklearn.model_selection import train_test_split
 
-#Determine the dataset path
 
 # dataset = 'All data'
 model_save_path = 'The saved model/model.keras'
@@ -20,8 +19,8 @@ model = tf.keras.models.load_model(model_save_path)
 
 #model test by video
 
-video_path = '29_Demo (2).mp4'
-cap = cv2.VideoCapture(video_path)
+#video_path = '29_Demo (2).mp4'
+cap = cv2.VideoCapture(0)
 
 mp_pose = mp.solutions.pose
 pose = mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5)
